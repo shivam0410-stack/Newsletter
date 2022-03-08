@@ -34,7 +34,7 @@ app.post("/", function (req, res) {
 
   const options = {
     method: "POST",
-    auth: "Divij:ca6b17efab35fc1cbddfe3ccd177b634-us14",
+    auth: "Shivam:89f066b895dce0e4ade6be47603eb3a0-us14",
   };
   const request = https.request(url, options, function (response) {
     if (response.statusCode === 2000) {
@@ -63,6 +63,7 @@ app.listen(process.env.PORT || 3000, function () {
 //3398a0a44a
 //ca6b17efab35fc1cbddfe3ccd177b634-us14
 //f6d80cc6da
+
 //API-key
 //89f066b895dce0e4ade6be47603eb3a0-us14
 //https://us14.admin.mailchimp.com/account/api/
