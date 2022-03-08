@@ -72,42 +72,35 @@
   </head>
   <body class="text-center">
     <main class="form-signin">
-      <form>
+      <form action="/" class="form-signin" method="POST">
         <img class="mb-4" src="/mail.png" alt="" width="72" height="57" />
         <h1 class="h3 mb-3 fw-normal">Signup to My Newsletter</h1>
-
-        <div class="form-floating">
-          <input
-            type="text"
-            class="form-control"
-            id="floatingInput"
-            placeholder="First Name"
-          />
-          <label for="floatingInput">First Name</label>
-        </div>
-        <div class="form-floating">
-          <input
-            type="text"
-            class="form-control"
-            id="floatingPassword"
-            placeholder="Last Name"
-          />
-          <label for="floatingPassword">Last Name</label>
-        </div>
-        <div class="form-floating">
-          <input
-            type="email"
-            class="form-control"
-            id="floatingPassword"
-            placeholder="Email"
-          />
-          <label for="floatingPassword">Email</label>
-        </div>
+        <input
+          type="text"
+          name="fname"
+          class="form-control top"
+          id="floatingInput"
+          placeholder="First Name"
+        />
+        <input
+          type="text"
+          name="lname"
+          class="form-control middle"
+          id="floatingPassword"
+          placeholder="Last Name"
+        />
+        <input
+          type="email"
+          name="email"
+          class="form-control bottom"
+          id="floatingPassword"
+          placeholder="Email"
+        />
 
         <button class="w-100 btn btn-lg btn-primary" type="submit">
-          Sign in
+          Sign Me Up!
         </button>
-        <p class="mt-5 mb-3 text-muted">&copy; 2017–2021</p>
+        <p class="mt-5 mb-3 text-muted">&copy; Divij Jaswal</p>
       </form>
     </main>
   </body>
